@@ -8,7 +8,7 @@ public class App {
     String word = myConsole.readLine();
 
     Scrabble wordScrabble = new Scrabble();
-    System.out.println("You're word score is =" + wordScrabble.calculateScore(word));
+    System.out.println("You're word score is " + wordScrabble.calculateScore(word));
 
 
 
